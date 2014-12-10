@@ -1,0 +1,221 @@
+\hypertarget{class_process}{\section{Process Class Reference}
+\label{class_process}\index{Process@{Process}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_process_aafec3f30878e8e4cdc7a117784f54902}{Process} (const wchar\+\_\+t $\ast$cmd\+Line, const wchar\+\_\+t $\ast$argums=L\char`\"{}\char`\"{}, bool stop\+When\+Destruct=true, void($\ast$on\+Proc\+Start\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Crash\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Exit\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Manually\+Stopped\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Suspend\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Resume\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\})
+\item 
+\hyperlink{class_process_a681a8862012fa707d3d8b0ec299d06e9}{Process} (const char $\ast$cmd\+Line, const char $\ast$argums=\char`\"{}\char`\"{}, bool stop\+When\+Destruct=true, void($\ast$on\+Proc\+Start\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Crash\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Exit\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Manually\+Stopped\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Suspend\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Resume\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\})
+\item 
+\hyperlink{class_process_a263e8ac92a74e4e962748c3c68b2fc22}{Process} (D\+W\+O\+R\+D p\+Id, bool stop\+When\+Destruct=true, void($\ast$on\+Proc\+Start\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Crash\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Exit\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Manually\+Stopped\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Suspend\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\}, void($\ast$on\+Proc\+Resume\+Func)()=\mbox{[}$\,$\mbox{]}(void)\{\})
+\item 
+\hyperlink{class_process_a990776d181dbbde7ff8ac12713d814b3}{$\sim$\+Process} ()
+\item 
+bool \hyperlink{class_process_ab4a5b657827c1fbb5e160a5c17bd3eb4}{suspend\+Process} ()
+\item 
+bool \hyperlink{class_process_a9252b5321058c5031c1898951854df9a}{resume\+Process} ()
+\item 
+bool \hyperlink{class_process_ab661e31e8b6bf000ff541717ccfeb5f5}{restart\+Process} ()
+\item 
+bool \hyperlink{class_process_a40f95845ca7480cfe7b232cf0e01cbcf}{stop\+Process} ()
+\item 
+bool \hyperlink{class_process_a022e8521999513ecab34d68630b1ec49}{start\+Process} ()
+\item 
+bool \hyperlink{class_process_a0418fee4890e8a2b88880366030eceb9}{get\+Process\+Handle} (H\+A\+N\+D\+L\+E p\+Handle)
+\item 
+bool \hyperlink{class_process_a7bfaff9eec7a272a6e928b5982891cd4}{get\+Process\+Id} (D\+W\+O\+R\+D \&p\+Id)
+\item 
+bool \hyperlink{class_process_a652a1458e12aa3ad147a2c120faf80a8}{get\+Thread\+Handle} (H\+A\+N\+D\+L\+E t\+Handle)
+\item 
+bool \hyperlink{class_process_a41236d63b4c7a3d8885a8335768d6e9d}{get\+Thread\+I\+D} (D\+W\+O\+R\+D \&t\+Id)
+\item 
+int \hyperlink{class_process_ab704137089b30d1e9593231ec78eaa2d}{get\+Status} ()
+\item 
+const wchar\+\_\+t $\ast$ \hyperlink{class_process_a889ea0a3e89d28f018e2a9c0bd65fc79}{get\+Command\+Line\+W} () const 
+\item 
+const char $\ast$ \hyperlink{class_process_a28f9d603f812b25bbe354cfeb1b9bb2a}{get\+Command\+Line} () const 
+\item 
+void \hyperlink{class_process_a70b4666b10995920204f41bc08e9a8ea}{set\+On\+Proc\+Start} (void($\ast$func)())
+\item 
+\hypertarget{class_process_a26689f3549ab9cbf5be2c5fd57f87045}{void {\bfseries set\+On\+Proc\+Crash} (void($\ast$func)())}\label{class_process_a26689f3549ab9cbf5be2c5fd57f87045}
+
+\item 
+\hypertarget{class_process_a4a1f587c85b923d01989daf538a9b07d}{void {\bfseries set\+On\+Proc\+Exit} (void($\ast$func)())}\label{class_process_a4a1f587c85b923d01989daf538a9b07d}
+
+\item 
+\hypertarget{class_process_a1c458ef0bb7ac130e9e54506af8b8f97}{void {\bfseries set\+On\+Proc\+Manually\+Stopped} (void($\ast$func)())}\label{class_process_a1c458ef0bb7ac130e9e54506af8b8f97}
+
+\item 
+\hypertarget{class_process_a48d5090164a9d9a0736b8f55529c97eb}{void {\bfseries set\+On\+Proc\+Suspend} (void($\ast$func)())}\label{class_process_a48d5090164a9d9a0736b8f55529c97eb}
+
+\item 
+\hypertarget{class_process_a2763232d6b1f2da70aff0de9568ad35e}{void {\bfseries set\+On\+Proc\+Resume} (void($\ast$func)())}\label{class_process_a2763232d6b1f2da70aff0de9568ad35e}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_process_a8281d3c3af384b940d57a3b7d36cde59}{test\+Class\+Function} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_process_aafec3f30878e8e4cdc7a117784f54902}{\index{Process@{Process}!Process@{Process}}
+\index{Process@{Process}!Process@{Process}}
+\subsubsection[{Process}]{\setlength{\rightskip}{0pt plus 5cm}Process\+::\+Process (
+\begin{DoxyParamCaption}
+\item[{const wchar\+\_\+t $\ast$}]{cmd\+Line, }
+\item[{const wchar\+\_\+t $\ast$}]{argums = {\ttfamily L\char`\"{}\char`\"{}}, }
+\item[{bool}]{stop\+When\+Destruct = {\ttfamily true}, }
+\item[{void($\ast$)()}]{on\+Proc\+Start\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Crash\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Exit\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Manually\+Stopped\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Suspend\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Resume\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}}
+\end{DoxyParamCaption}
+)}}\label{class_process_aafec3f30878e8e4cdc7a117784f54902}
+The consructor accepts 2 const unicode strings and a bool-\/value which determines stopping process when the instance is over (true by default). Also it accepts pointers to callback-\/functions(empty by default). Note\+: you can also pass args in the first argument. \hypertarget{class_process_a681a8862012fa707d3d8b0ec299d06e9}{\index{Process@{Process}!Process@{Process}}
+\index{Process@{Process}!Process@{Process}}
+\subsubsection[{Process}]{\setlength{\rightskip}{0pt plus 5cm}Process\+::\+Process (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{cmd\+Line, }
+\item[{const char $\ast$}]{argums = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{bool}]{stop\+When\+Destruct = {\ttfamily true}, }
+\item[{void($\ast$)()}]{on\+Proc\+Start\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Crash\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Exit\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Manually\+Stopped\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Suspend\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Resume\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}}
+\end{DoxyParamCaption}
+)}}\label{class_process_a681a8862012fa707d3d8b0ec299d06e9}
+The consructor accepts 2 const multibyte strings () and a bool-\/value which determines stopping process when the instance is over (true by default). Also it accepts pointers to callback-\/functions(empty by default). \hypertarget{class_process_a263e8ac92a74e4e962748c3c68b2fc22}{\index{Process@{Process}!Process@{Process}}
+\index{Process@{Process}!Process@{Process}}
+\subsubsection[{Process}]{\setlength{\rightskip}{0pt plus 5cm}Process\+::\+Process (
+\begin{DoxyParamCaption}
+\item[{D\+W\+O\+R\+D}]{p\+Id, }
+\item[{bool}]{stop\+When\+Destruct = {\ttfamily true}, }
+\item[{void($\ast$)()}]{on\+Proc\+Start\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Crash\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Exit\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Manually\+Stopped\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Suspend\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}, }
+\item[{void($\ast$)()}]{on\+Proc\+Resume\+Func = {\ttfamily \mbox{[}\mbox{]}(void)\{\}}}
+\end{DoxyParamCaption}
+)}}\label{class_process_a263e8ac92a74e4e962748c3c68b2fc22}
+The constructor accepts process id and bool-\/value which determines stopping process when the instance is over (false by default). Also it accepts pointers to callback-\/functions(empty by default). \hypertarget{class_process_a990776d181dbbde7ff8ac12713d814b3}{\index{Process@{Process}!````~Process@{$\sim$\+Process}}
+\index{````~Process@{$\sim$\+Process}!Process@{Process}}
+\subsubsection[{$\sim$\+Process}]{\setlength{\rightskip}{0pt plus 5cm}Process\+::$\sim$\+Process (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_process_a990776d181dbbde7ff8ac12713d814b3}
+The destructor releases the resources, closes watch\+Thread and stops the process if stop\+When\+Destruct is true. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_process_a28f9d603f812b25bbe354cfeb1b9bb2a}{\index{Process@{Process}!get\+Command\+Line@{get\+Command\+Line}}
+\index{get\+Command\+Line@{get\+Command\+Line}!Process@{Process}}
+\subsubsection[{get\+Command\+Line}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Process\+::get\+Command\+Line (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_process_a28f9d603f812b25bbe354cfeb1b9bb2a}
+The function returns the command line of the process in the form of multibyte. \hypertarget{class_process_a889ea0a3e89d28f018e2a9c0bd65fc79}{\index{Process@{Process}!get\+Command\+Line\+W@{get\+Command\+Line\+W}}
+\index{get\+Command\+Line\+W@{get\+Command\+Line\+W}!Process@{Process}}
+\subsubsection[{get\+Command\+Line\+W}]{\setlength{\rightskip}{0pt plus 5cm}const wchar\+\_\+t $\ast$ Process\+::get\+Command\+Line\+W (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_process_a889ea0a3e89d28f018e2a9c0bd65fc79}
+The function returns the command line of the process in the form of unicode. \hypertarget{class_process_a0418fee4890e8a2b88880366030eceb9}{\index{Process@{Process}!get\+Process\+Handle@{get\+Process\+Handle}}
+\index{get\+Process\+Handle@{get\+Process\+Handle}!Process@{Process}}
+\subsubsection[{get\+Process\+Handle}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::get\+Process\+Handle (
+\begin{DoxyParamCaption}
+\item[{H\+A\+N\+D\+L\+E}]{p\+Handle}
+\end{DoxyParamCaption}
+)}}\label{class_process_a0418fee4890e8a2b88880366030eceb9}
+The function puts the process handle in p\+Handle if the process is active. It returns true if succeed and false otherwise. \hypertarget{class_process_a7bfaff9eec7a272a6e928b5982891cd4}{\index{Process@{Process}!get\+Process\+Id@{get\+Process\+Id}}
+\index{get\+Process\+Id@{get\+Process\+Id}!Process@{Process}}
+\subsubsection[{get\+Process\+Id}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::get\+Process\+Id (
+\begin{DoxyParamCaption}
+\item[{D\+W\+O\+R\+D \&}]{p\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_process_a7bfaff9eec7a272a6e928b5982891cd4}
+The function puts the process id in p\+Id if the process is active. It returns true if succeed and false otherwise. \hypertarget{class_process_ab704137089b30d1e9593231ec78eaa2d}{\index{Process@{Process}!get\+Status@{get\+Status}}
+\index{get\+Status@{get\+Status}!Process@{Process}}
+\subsubsection[{get\+Status}]{\setlength{\rightskip}{0pt plus 5cm}int Process\+::get\+Status (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_process_ab704137089b30d1e9593231ec78eaa2d}
+The function returns the status of the process\+: 0 -\/ A\+C\+T\+I\+V\+E 1 -\/ R\+E\+S\+T\+A\+R\+T\+I\+N\+G 2 -\/ S\+U\+S\+P\+E\+N\+D\+E\+D 3 -\/ S\+T\+O\+P\+P\+E\+D \hypertarget{class_process_a652a1458e12aa3ad147a2c120faf80a8}{\index{Process@{Process}!get\+Thread\+Handle@{get\+Thread\+Handle}}
+\index{get\+Thread\+Handle@{get\+Thread\+Handle}!Process@{Process}}
+\subsubsection[{get\+Thread\+Handle}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::get\+Thread\+Handle (
+\begin{DoxyParamCaption}
+\item[{H\+A\+N\+D\+L\+E}]{t\+Handle}
+\end{DoxyParamCaption}
+)}}\label{class_process_a652a1458e12aa3ad147a2c120faf80a8}
+The function puts the thread handle in t\+Handle if the process is active. It returns true if succeed and false otherwise. \hypertarget{class_process_a41236d63b4c7a3d8885a8335768d6e9d}{\index{Process@{Process}!get\+Thread\+I\+D@{get\+Thread\+I\+D}}
+\index{get\+Thread\+I\+D@{get\+Thread\+I\+D}!Process@{Process}}
+\subsubsection[{get\+Thread\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::get\+Thread\+I\+D (
+\begin{DoxyParamCaption}
+\item[{D\+W\+O\+R\+D \&}]{t\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_process_a41236d63b4c7a3d8885a8335768d6e9d}
+The function puts the thread id in t\+Id if the process is active. It returns true if succeed and false otherwise. \hypertarget{class_process_ab661e31e8b6bf000ff541717ccfeb5f5}{\index{Process@{Process}!restart\+Process@{restart\+Process}}
+\index{restart\+Process@{restart\+Process}!Process@{Process}}
+\subsubsection[{restart\+Process}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::restart\+Process (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_process_ab661e31e8b6bf000ff541717ccfeb5f5}
+The function restarts the process if it is still active. It returns true if succeed and false otherwise. \hypertarget{class_process_a9252b5321058c5031c1898951854df9a}{\index{Process@{Process}!resume\+Process@{resume\+Process}}
+\index{resume\+Process@{resume\+Process}!Process@{Process}}
+\subsubsection[{resume\+Process}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::resume\+Process (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_process_a9252b5321058c5031c1898951854df9a}
+The function resumes the process if it is suspended. It returns true if succeed and false otherwise. \hypertarget{class_process_a70b4666b10995920204f41bc08e9a8ea}{\index{Process@{Process}!set\+On\+Proc\+Start@{set\+On\+Proc\+Start}}
+\index{set\+On\+Proc\+Start@{set\+On\+Proc\+Start}!Process@{Process}}
+\subsubsection[{set\+On\+Proc\+Start}]{\setlength{\rightskip}{0pt plus 5cm}void Process\+::set\+On\+Proc\+Start (
+\begin{DoxyParamCaption}
+\item[{void($\ast$)()}]{func}
+\end{DoxyParamCaption}
+)}}\label{class_process_a70b4666b10995920204f41bc08e9a8ea}
+Those functions set the callbacks on main events. \hypertarget{class_process_a022e8521999513ecab34d68630b1ec49}{\index{Process@{Process}!start\+Process@{start\+Process}}
+\index{start\+Process@{start\+Process}!Process@{Process}}
+\subsubsection[{start\+Process}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::start\+Process (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_process_a022e8521999513ecab34d68630b1ec49}
+The function starts again the process if it was stopped by previous method. It returns true if succeed and false otherwise. \hypertarget{class_process_a40f95845ca7480cfe7b232cf0e01cbcf}{\index{Process@{Process}!stop\+Process@{stop\+Process}}
+\index{stop\+Process@{stop\+Process}!Process@{Process}}
+\subsubsection[{stop\+Process}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::stop\+Process (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_process_a40f95845ca7480cfe7b232cf0e01cbcf}
+The function stops the process (if it is active) until it will be started again. It returns true if succeed and false otherwise. \hypertarget{class_process_ab4a5b657827c1fbb5e160a5c17bd3eb4}{\index{Process@{Process}!suspend\+Process@{suspend\+Process}}
+\index{suspend\+Process@{suspend\+Process}!Process@{Process}}
+\subsubsection[{suspend\+Process}]{\setlength{\rightskip}{0pt plus 5cm}bool Process\+::suspend\+Process (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_process_ab4a5b657827c1fbb5e160a5c17bd3eb4}
+The function freezes execution of the process (if it is active) until it will be resumed. It returns true if succeed and false otherwise. \hypertarget{class_process_a8281d3c3af384b940d57a3b7d36cde59}{\index{Process@{Process}!test\+Class\+Function@{test\+Class\+Function}}
+\index{test\+Class\+Function@{test\+Class\+Function}!Process@{Process}}
+\subsubsection[{test\+Class\+Function}]{\setlength{\rightskip}{0pt plus 5cm}void Process\+::test\+Class\+Function (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_process_a8281d3c3af384b940d57a3b7d36cde59}
+Next function tests the \hyperlink{class_process}{Process} class. Call it, if you prefer to watch an example of using this class. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Kodisoft\+Test\+Task\+Solution/Process.\+h\item 
+D\+:/\+Kodisoft\+Test\+Task\+Solution/Process.\+cpp\end{DoxyCompactItemize}

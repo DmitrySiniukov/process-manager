@@ -1,0 +1,17 @@
+﻿Build started 12/10/2014 5:58:19 AM.
+     1>Project "D:\KodisoftTestTaskSolution\KodisoftTestTaskSolution.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Process.cpp
+         Process.cpp
+     1>d:\kodisofttesttasksolution\process.cpp(370): warning C4101: 'err' : unreferenced local variable
+     1>d:\kodisofttesttasksolution\process.cpp(375): warning C4101: 'err' : unreferenced local variable
+       Link:
+         D:\Programs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\KodisoftTestTaskSolution\Debug\KodisoftTestTaskSolution.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\KodisoftTestTaskSolution\Debug\KodisoftTestTaskSolution.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\KodisoftTestTaskSolution\Debug\KodisoftTestTaskSolution.lib" /MACHINE:X86 Debug\driver.obj
+         Debug\Logger.obj
+         Debug\Process.obj
+         KodisoftTestTaskSolution.vcxproj -> D:\KodisoftTestTaskSolution\Debug\KodisoftTestTaskSolution.exe
+     1>Done Building Project "D:\KodisoftTestTaskSolution\KodisoftTestTaskSolution.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.17
